@@ -3,6 +3,7 @@ const HtmlWebPackPlugin = require("html-webpack-plugin");
 
 //usamos o module.exports para trabalhar como nodeJS
 module.exports = {
+    devtool: 'sourcemap',
     entry: './src/index.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
